@@ -16,7 +16,8 @@ const Signup = () => {
         name: data.name,
         registrationNumber: data.registrationNumber,
         email: data.email,
-        phoneNumber: data.phoneNumber
+        phoneNumber: data.phoneNumber,
+        password: data.password
       });
       setSuccessMessage('Signup successful! Data has been stored in the database.');
       setTimeout(() => {
