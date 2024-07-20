@@ -1,0 +1,89 @@
+/* SubmissionDetails.css */
+
+.submission-details {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .submission-details__title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .submission-details__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .submission-details__item {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submission-details__item strong {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .submission-details__item a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .submission-details__item a:hover {
+    color: #004499;
+  }
+  
+  .submission-details__actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .btn--accept {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn--accept:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .btn--reject {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn--reject:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  .loading {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 50px 0;
+  }
+  

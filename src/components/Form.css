@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="file"],
+.form button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="number"]:focus,
+.form input[type="file"]:focus {
+  border-color: #00b4d8;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 180, 216, 0.5);
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #555;
+}
+
+.form button {
+  background-color: #00b4d8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0077b6;
+}
+
+.success-message {
+  text-align: center;
+  color: #28a745;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 10px;
+  }
+}
